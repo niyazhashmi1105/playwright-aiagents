@@ -1,4 +1,4 @@
-# Playwright AI Agents - Login Page Test Automation
+# Playwright AI Agents - Create Account Page Test Automation
 
 This project demonstrates end-to-end test automation for the login page of the Automation Practice e-commerce website using Playwright and AI-driven test generation, execution, and healing workflows.
 
