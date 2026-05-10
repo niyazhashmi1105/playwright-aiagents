@@ -1,0 +1,371 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - link [ref=e8] [cursor=pointer]:
+      - /url: https://automationpractice.techwithjatin.com/
+    - generic [ref=e11]:
+      - navigation:
+        - link "Sign in" [ref=e13] [cursor=pointer]:
+          - /url: https://automationpractice.techwithjatin.com/my-account
+        - link "Contact us" [ref=e15] [cursor=pointer]:
+          - /url: https://automationpractice.techwithjatin.com/contact-us
+        - generic [ref=e16]:
+          - generic [ref=e17]: 
+          - text: "Call us now:"
+          - strong [ref=e18]: 0123-456-789
+    - generic [ref=e21]:
+      - link "Automation Practice" [ref=e23] [cursor=pointer]:
+        - /url: https://automationpractice.techwithjatin.com/
+        - img "Automation Practice" [ref=e24]
+      - generic [ref=e26]:
+        - textbox "Search" [ref=e27]
+        - button "" [ref=e28] [cursor=pointer]
+      - generic [ref=e30]:
+        - link " Cart (empty) " [ref=e31] [cursor=pointer]:
+          - /url: https://automationpractice.techwithjatin.com/order
+        - text: 
+      - text:    
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Women" [ref=e35] [cursor=pointer]:
+            - /url: https://automationpractice.techwithjatin.com/3-women
+          - text:     
+        - listitem [ref=e36]:
+          - link "Dresses" [ref=e37] [cursor=pointer]:
+            - /url: https://automationpractice.techwithjatin.com/8-dresses
+        - listitem [ref=e38]:
+          - link "T-shirts" [ref=e39] [cursor=pointer]:
+            - /url: https://automationpractice.techwithjatin.com/5-tshirts
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - link ".  ." [ref=e43] [cursor=pointer]:
+        - /url: https://automationpractice.techwithjatin.com/
+        - text: .
+        - generic [ref=e44]: 
+        - text: .
+      - generic [ref=e45]: ">"
+      - text: Authentication
+    - generic [ref=e154]:
+      - heading "Create an account" [level=1] [ref=e155]
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - heading "Your personal information" [level=3] [ref=e158]
+          - paragraph [ref=e159]:
+            - superscript [ref=e160]: "*"
+            - text: Required field
+          - generic [ref=e161]:
+            - generic [ref=e162]: Title
+            - generic [ref=e164]:
+              - radio "Mr." [ref=e167]
+              - text: Mr.
+            - generic [ref=e169]:
+              - radio "Mrs." [ref=e172]
+              - text: Mrs.
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - text: First name
+              - superscript [ref=e175]: "*"
+            - textbox "First name *" [ref=e176]
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - text: Last name
+              - superscript [ref=e179]: "*"
+            - textbox "Last name *" [ref=e180]
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - text: Email
+              - superscript [ref=e183]: "*"
+            - textbox "Email *" [ref=e184]: newtestuser@example.com
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - text: Password
+              - superscript [ref=e187]: "*"
+            - textbox "Password *" [ref=e188]
+            - text: (Five characters minimum)
+          - generic [ref=e189]:
+            - generic [ref=e190]: Date of Birth
+            - generic [ref=e191]:
+              - generic [ref=e193]:
+                - generic [ref=e194] [cursor=pointer]: "-"
+                - combobox [ref=e195]:
+                  - option "-" [selected]
+                  - option "1"
+                  - option "2"
+                  - option "3"
+                  - option "4"
+                  - option "5"
+                  - option "6"
+                  - option "7"
+                  - option "8"
+                  - option "9"
+                  - option "10"
+                  - option "11"
+                  - option "12"
+                  - option "13"
+                  - option "14"
+                  - option "15"
+                  - option "16"
+                  - option "17"
+                  - option "18"
+                  - option "19"
+                  - option "20"
+                  - option "21"
+                  - option "22"
+                  - option "23"
+                  - option "24"
+                  - option "25"
+                  - option "26"
+                  - option "27"
+                  - option "28"
+                  - option "29"
+                  - option "30"
+                  - option "31"
+              - generic [ref=e197]:
+                - generic [ref=e198] [cursor=pointer]: "-"
+                - combobox [ref=e199]:
+                  - option "-" [selected]
+                  - option "January"
+                  - option "February"
+                  - option "March"
+                  - option "April"
+                  - option "May"
+                  - option "June"
+                  - option "July"
+                  - option "August"
+                  - option "September"
+                  - option "October"
+                  - option "November"
+                  - option "December"
+              - generic [ref=e201]:
+                - generic [ref=e202] [cursor=pointer]: "-"
+                - combobox [ref=e203]:
+                  - option "-" [selected]
+                  - option "2026"
+                  - option "2025"
+                  - option "2024"
+                  - option "2023"
+                  - option "2022"
+                  - option "2021"
+                  - option "2020"
+                  - option "2019"
+                  - option "2018"
+                  - option "2017"
+                  - option "2016"
+                  - option "2015"
+                  - option "2014"
+                  - option "2013"
+                  - option "2012"
+                  - option "2011"
+                  - option "2010"
+                  - option "2009"
+                  - option "2008"
+                  - option "2007"
+                  - option "2006"
+                  - option "2005"
+                  - option "2004"
+                  - option "2003"
+                  - option "2002"
+                  - option "2001"
+                  - option "2000"
+                  - option "1999"
+                  - option "1998"
+                  - option "1997"
+                  - option "1996"
+                  - option "1995"
+                  - option "1994"
+                  - option "1993"
+                  - option "1992"
+                  - option "1991"
+                  - option "1990"
+                  - option "1989"
+                  - option "1988"
+                  - option "1987"
+                  - option "1986"
+                  - option "1985"
+                  - option "1984"
+                  - option "1983"
+                  - option "1982"
+                  - option "1981"
+                  - option "1980"
+                  - option "1979"
+                  - option "1978"
+                  - option "1977"
+                  - option "1976"
+                  - option "1975"
+                  - option "1974"
+                  - option "1973"
+                  - option "1972"
+                  - option "1971"
+                  - option "1970"
+                  - option "1969"
+                  - option "1968"
+                  - option "1967"
+                  - option "1966"
+                  - option "1965"
+                  - option "1964"
+                  - option "1963"
+                  - option "1962"
+                  - option "1961"
+                  - option "1960"
+                  - option "1959"
+                  - option "1958"
+                  - option "1957"
+                  - option "1956"
+                  - option "1955"
+                  - option "1954"
+                  - option "1953"
+                  - option "1952"
+                  - option "1951"
+                  - option "1950"
+                  - option "1949"
+                  - option "1948"
+                  - option "1947"
+                  - option "1946"
+                  - option "1945"
+                  - option "1944"
+                  - option "1943"
+                  - option "1942"
+                  - option "1941"
+                  - option "1940"
+                  - option "1939"
+                  - option "1938"
+                  - option "1937"
+                  - option "1936"
+                  - option "1935"
+                  - option "1934"
+                  - option "1933"
+                  - option "1932"
+                  - option "1931"
+                  - option "1930"
+                  - option "1929"
+                  - option "1928"
+                  - option "1927"
+                  - option "1926"
+                  - option "1925"
+                  - option "1924"
+                  - option "1923"
+                  - option "1922"
+                  - option "1921"
+                  - option "1920"
+                  - option "1919"
+                  - option "1918"
+                  - option "1917"
+                  - option "1916"
+                  - option "1915"
+                  - option "1914"
+                  - option "1913"
+                  - option "1912"
+                  - option "1911"
+                  - option "1910"
+                  - option "1909"
+                  - option "1908"
+                  - option "1907"
+                  - option "1906"
+                  - option "1905"
+                  - option "1904"
+                  - option "1903"
+                  - option "1902"
+                  - option "1901"
+                  - option "1900"
+          - generic [ref=e204]:
+            - checkbox "Sign up for our newsletter!" [ref=e207]
+            - text: Sign up for our newsletter!
+          - generic [ref=e208]:
+            - checkbox "Receive special offers from our partners!" [ref=e211]
+            - text: Receive special offers from our partners!
+        - generic [ref=e212]:
+          - button "Register " [ref=e213] [cursor=pointer]:
+            - generic [ref=e214]:
+              - text: Register
+              - generic [ref=e215]: 
+          - paragraph [ref=e216]:
+            - generic [ref=e217]:
+              - superscript [ref=e218]: "*"
+              - text: Required field
+  - contentinfo [ref=e79]:
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - heading "Newsletter" [level=4] [ref=e82] [cursor=pointer]
+        - generic [ref=e85]:
+          - textbox [ref=e86]: Enter your e-mail
+          - button "" [ref=e87] [cursor=pointer]
+      - generic [ref=e88]:
+        - list [ref=e89]:
+          - listitem [ref=e90]:
+            - link "" [ref=e91] [cursor=pointer]:
+              - /url: http://www.facebook.com/prestashop
+          - listitem [ref=e92]:
+            - link "" [ref=e93] [cursor=pointer]:
+              - /url: http://www.twitter.com/prestashop
+          - listitem [ref=e94]:
+            - link "" [ref=e95] [cursor=pointer]:
+              - /url: http://www.prestashop.com/blog/en/
+          - listitem [ref=e96]:
+            - link "" [ref=e97] [cursor=pointer]:
+              - /url: https://www.google.com/+prestashop
+        - heading "Follow us" [level=4] [ref=e98] [cursor=pointer]
+      - generic [ref=e100]:
+        - heading "Categories" [level=4] [ref=e101] [cursor=pointer]
+        - list [ref=e104]:
+          - listitem [ref=e105]:
+            - link "Women" [ref=e106] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/3-women
+      - generic [ref=e107]:
+        - heading "Information" [level=4] [ref=e108] [cursor=pointer]
+        - list [ref=e109]:
+          - listitem [ref=e110]:
+            - link "Specials" [ref=e111] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/prices-drop
+          - listitem [ref=e112]:
+            - link "New products" [ref=e113] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/new-products
+          - listitem [ref=e114]:
+            - link "Best sellers" [ref=e115] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/best-sales
+          - listitem [ref=e116]:
+            - link "Our stores" [ref=e117] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/stores
+          - listitem [ref=e118]:
+            - link "Contact us" [ref=e119] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/contact-us
+          - listitem [ref=e120]:
+            - link "Terms and conditions of use" [ref=e121] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/content/3-terms-and-conditions-of-use
+          - listitem [ref=e122]:
+            - link "About us" [ref=e123] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/content/4-about-us
+          - listitem [ref=e124]:
+            - link "Sitemap" [ref=e125] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/sitemap
+      - link "© 2026 - Ecommerce software by PrestaShop™" [ref=e128] [cursor=pointer]:
+        - /url: http://www.prestashop.com
+      - generic [ref=e129]:
+        - heading "My account" [level=4] [ref=e130] [cursor=pointer]:
+          - link "My account" [ref=e131]:
+            - /url: https://automationpractice.techwithjatin.com/my-account
+        - list [ref=e133]:
+          - listitem [ref=e134]:
+            - link "My orders" [ref=e135] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/order-history
+          - listitem [ref=e136]:
+            - link "My credit slips" [ref=e137] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/credit-slip
+          - listitem [ref=e138]:
+            - link "My addresses" [ref=e139] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/addresses
+          - listitem [ref=e140]:
+            - link "My personal info" [ref=e141] [cursor=pointer]:
+              - /url: https://automationpractice.techwithjatin.com/identity
+      - generic [ref=e143]:
+        - heading "Store Information" [level=4] [ref=e144] [cursor=pointer]
+        - list [ref=e145]:
+          - listitem [ref=e146]:
+            - generic [ref=e147]: 
+            - text: My Company, 42 Puffin street 12345 Puffinville France
+          - listitem [ref=e148]:
+            - generic [ref=e149]: 
+            - text: "Call us now: 0123-456-789"
+          - listitem [ref=e150]:
+            - generic [ref=e151]: 
+            - text: "Email:"
+            - link "sales@yourcompany.com" [ref=e153] [cursor=pointer]:
+              - /url: mailto:%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d
